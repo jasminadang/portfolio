@@ -33,12 +33,21 @@ ul {
   display: flex;
 }
 
-.social, .homepage-image {
+.social {
   display: none;
 }
 
 .homepage {
   display: flex;
-  text-align: center;
+  text-align: left;
   padding: 4em;
+}
+.homepage h1 {
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+.see-link {
+  display: grid;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
