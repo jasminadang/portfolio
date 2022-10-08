@@ -1,47 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href ="css/style.css"> 
+    <link rel ="stylesheet" href ="/css/main.css"> 
     <title>Jasmina Dang</title>
-</head>
+  </head>
 
-<body>
-    <div class = "portfolio">
+  <body>
+      <div class="portfolio">
         <header>
+          <a href="index.html" class="logo">Jasmina Dang</a>
             <nav>
-                <h3 class = "logo">Jasmina Dang</h3>
-               <!--<img src="./img/logohead.svg" alt = "head"/> -->
-                <a href="./index.html">home</a>
-                <a href="./mywork.html">my work</a>
-                <a href="./aboutme.html">about me</a>
-                <a href="./contactme.html">contact me</a>
+              <ul>
+                <li><a href="/html/mywork.html">my work</a></li>
+                <li><a href="/html/aboutme.html">about me</a></li>
+                <li><a href="/html/contactme.html">contact me</a></li>
+              </ul>
             </nav>
-            <main>
-                <section class = "homepage">
-                    <div class = "details">
-                        <h1>Jasmina Dang</h1>
-                        <h2>Software Engineering Student</h2>
-                        <p>Data Analytics and Web Development</p>
-                    </div>
-                </section>
-
-                <div><p>Click Here To View My Work</p></div>
-                <div class = "social media">
-                <div class = "linkedin">
-                    <img href="https://www.linkedin.com/in/jasminadang/" src ="./img/linkedin.svg" alt = "linkedin" >
-                </div>
-                <div class = "github">
-                    <img src ="./img/github.svg" alt = "github">
-                </div>
-                <div class = "mail">
-                    <img src ="./img/email.svg" alt = "email">
-                </div>
-                </div>
-            </main>
         </header>
+
+        <div class="social">
+          <ul> 
+            <li><a href="https://www.linkedin.com/in/jasminadang/" target="_blank"><img src ="./img/linkedin.svg" alt = "linkedin" class="responsive"></a></li>
+            <li><a href="https://github.com/jasminadang" target="_blank"><img src ="./img/github.svg" alt = "github" class="responsive"></a></li>
+          </ul>
+        </div>
+
+        <main>
+          <section class = "homepage">
+            <div class = "details">
+              <h1>Hi, I'm Jasmina Dang</h1>
+              <h2>Front-end Developer and UX/UI Designer</h2>
+              <p>I am a recently graduated software engineer</p>
+            </div>
+            <img class="homepage-image" src="./img/homepageimage.svg">
+          </section>
+        </main>                    
     </div>
-    
-</body>
+  </body>
 </html>
